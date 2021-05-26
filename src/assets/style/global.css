@@ -1,0 +1,86 @@
+html,
+body,
+#app {
+  font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif !important;
+}
+.formdialog .el-dialog__body {
+  padding: 20px 100px;
+}
+.el-table--border th {
+  text-align: center;
+}
+/* 页面切换动画 */
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.28s;
+}
+.fade-enter,
+.fade-leave-active {
+  opacity: 0;
+}
+.fade-transform-leave-active,
+.fade-transform-enter-active {
+  transition: all 0.5s;
+}
+.fade-transform-enter {
+  opacity: 0;
+  transform: translateX(-30px);
+}
+.fade-transform-leave-to {
+  opacity: 0;
+  transform: translateX(30px);
+}
+/* 面包屑动画 */
+.breadcrumb-enter-active,
+.breadcrumb-leave-active {
+  transition: all 0.5s;
+}
+.breadcrumb-enter,
+.breadcrumb-leave-active {
+  opacity: 0;
+  transform: translateX(20px);
+}
+.breadcrumb-move {
+  transition: all 0.5s;
+}
+.breadcrumb-leave-active {
+  position: absolute;
+}
+.el-input__inner {
+  height: 36px;
+  line-height: 36px;
+}
+.el-button--primary.is-plain {
+  background-color: #fff;
+}
+.el-tooltip__popper.is-light {
+  border-color: #e6e6e6 !important;
+  color: #666 !important;
+}
+.el-message {
+  padding: 10px 15px;
+  min-width: 50px;
+}
+.commonHeight .el-table__body-wrapper {
+  height: 263px;
+}
+.el-cascader-panel {
+  box-shadow: 5px 5px 5px #ccc;
+}
+.el-textarea .el-input__count {
+  background: none;
+}
+.el-dialog__body {
+  max-height: 500px;
+  overflow: hidden;
+  overflow-y: auto;
+}
+.el-menu [class^="fa"] {
+  margin-right: 5px;
+  width: 24px;
+}
+.el-image-viewer__close {
+  color: transparent;
+  width: 100%;
+  height: 100%;
+}
